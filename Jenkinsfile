@@ -2,7 +2,7 @@ jenkins webhook integration with github
 
 node{
    stage('SCM Checkout'){
-     git 'https://github.com/ankittomar0207/demo-app/'
+     git 'https://github.com/ankittomar0207/Demojenkins/'
    }
    stage('Deploy to Tomcat'){
       
